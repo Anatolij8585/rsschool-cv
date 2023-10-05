@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: 'Caveat', Verdana, sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.wrapper {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem 2rem
+}
+
+.header {
+    margin: 0;
+    padding: 1rem 20rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.main {
+    display: block;
+    margin: 0 auto;
+}
+
+.section__title {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contacts__foto {
+    display: inline-block;
+    margin-right: 5rem;
+    border-radius: 10rem;
+}
+
+.contacts__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
