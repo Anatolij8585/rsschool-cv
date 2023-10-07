@@ -20,6 +20,7 @@ h2 {
 
 .wrapper {
     max-width: 120rem;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 2rem
 }
@@ -58,7 +59,7 @@ h2 {
 .contacts {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.1rem;
     align-items: center;
 }
 
@@ -75,6 +76,21 @@ h2 {
     align-items: center;
 }
 
+.list-item {
+    list-style: none;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.svg-icon {
+    padding-right: .5rem;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -85,4 +101,25 @@ h2 {
 .about-text {
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+.skills__lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-items {
+    list-style: none;
+}
+
+.skills-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.rs-icon {
+    width: 32px;
+    height: 24px;
 }
