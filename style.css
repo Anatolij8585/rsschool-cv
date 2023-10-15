@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+    font-family: 'Caveat', Verdana, sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.wrapper {
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.header {
+    margin: 0;
+    padding: 1rem 20rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: block;
+    margin: 0 auto;
+}
+
+.section__title {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.contacts__foto {
+    display: inline-block;
+    margin-right: 5rem;
+    border-radius: 10rem;
+}
+
+.contacts__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.svg-icon {
+    padding-right: .5rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.skills__lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-items {
+    list-style: none;
+}
+
+.skills-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.example{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+
+.code__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code__content {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.education__title{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.education__list-item{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.rs-icon {
+    width: 32px;
+    height: 24px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.icon__github,
+.icon__rsschool{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.my__github-link,
+.rsschool-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.my__github-link,
+.rsschool-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text__year{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
